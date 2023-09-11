@@ -679,13 +679,30 @@
   .home-burger-menu {
     margin-left: var(--dl-space-space-doubleunit);
   }
+  .home-icon02 {
+    width: auto;
+  }
+  .home-links-container1 {
+    width: auto;
+  }
   .home-hero-text-container {
     width: 100%;
   }
   .home-about-1 {
     width: 100%;
   }
+  .home-section-separator2 {
+    width: 100%;
+    height: 100%;
+  }
+  .home-pricing {
+    width: 80%;
+  }
   .home-text05 {
     text-align: center;
+  }
+  .home-pricing-card-container {
+    width: 100%;
+    height: 100%;
   }
 }
