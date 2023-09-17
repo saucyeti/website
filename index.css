@@ -7,6 +7,10 @@
   flex-direction: column;
 }
 
+.home-navbar-container {
+  width: 100%;
+}
+
 .home-navbar {
   width: 100%;
   display: flex;
