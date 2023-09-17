@@ -539,7 +539,8 @@
   font-family: Playfair Display;
 }
 .home-container11 {
-
+  display: flex;
+  justify-content: center;
 }
 .home-link8 {
 
