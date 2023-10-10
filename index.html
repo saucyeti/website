@@ -75,12 +75,19 @@
                 </div>
               </div>
               <div class="home-links-container1">
-                <a href = "#Home" class="home-link4 Navbar-Link">About</span>
-                <a href = "#Experience" class="home-link5 Navbar-Link">Experience</span>
-                <a href = "#Pricing" class="home-link6 Navbar-Link">Pricing</span>
-                <a href = "#Contact" class="Navbar-Link">Contact</span>
+                <a href = "#Home" class="home-link4 Navbar-Link" onclick="closeMobileMenu()">About</span>
+                <a href = "#Experience" class="home-link5 Navbar-Link" onclick="closeMobileMenu()">Experience</span>
+                <a href = "#Pricing" class="home-link6 Navbar-Link" onclick="closeMobileMenu()">Pricing</span>
+                <a href = "#Contact" class="Navbar-Link" onclick="closeMobileMenu()">Contact</span>
               </div>
             </div>
+    <script>
+        function closeMobileMenu() {
+            // Close the mobile menu by selecting the menu element and hiding it
+            var mobileMenu = document.querySelector('.home-mobile-menu');
+            mobileMenu.style.display = 'none';
+        }
+    </script>
           </div>
         </div>
         <div class="home-section-separator"></div>
