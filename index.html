@@ -292,5 +292,24 @@
       </div>
     </div>
     <script src="https://unpkg.com/@teleporthq/teleport-custom-scripts"></script>
+    <script>
+      // Wait for the DOM to fully load
+      document.addEventListener('DOMContentLoaded', function() {
+          // Select the div with class "home-mobile-menu"
+          var menuDiv = document.querySelector('.home-links-container1');
+      
+          // Get all anchor elements within the selected div
+          var anchorElements = menuDiv.getElementsByTagName('a');
+      
+          // Loop through each anchor element
+          for (var i = 0; i < anchorElements.length; i++) {
+              // Add an onclick event listener to each anchor element
+              anchorElements[i].addEventListener('click', function() {
+                  mobileMenu.classList.remove("teleport-show");
+              });
+          }
+      });
+
+    </script>
   </body>
 </html>
